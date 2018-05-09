@@ -1,0 +1,231 @@
+<resources>
+    <string name="app_name">It\'s My Quiz</string>
+    <string name="Name">Name :</string>
+    <string name="Student_Gender">Sex : </string>
+    <string name="gender_female">F</string>
+    <string name="gender_male">M</string>
+    <string name="mode_question_paper">Mode : </string>
+    <string name="easy_mode">easy</string>
+    <string name="medium_mode">medium</string>
+    <string name="tough_mode">tough</string>
+    <string name="quiz_confirm">Start Quiz</string>
+    <string name="que_1">1.What does "R" stands for???</string>
+    <string name="e1_op1">RadioButton</string>
+    <string name="e1_op2">radiogroup</string>
+    <string name="e1_op3">Resources</string>
+    <string name="e1_op4">RadIOGroup</string>
+
+
+    <string name="que_2">2.What code is used to position the contents in app ??</string>
+    <string name="e2_op1">java code</string>
+    <string name="e2_op2">xml code</string>
+    <string name="e2_op3">Kotlin code</string>
+    <string name="e2_op4">android code</string>
+
+
+    <string name="txt">Why TextView is placed in between the brackets in the righthand side of = sign</string>
+    <string name="e3_op1">It is the syntax</string>
+    <string name="e3_op2">Because TextView is a subclass of View class.</string>
+    <string name="e3_op3">there casting from View type to TextView is happening.</string>
+    <string name="e3_op4">The right operand of = must have parenthesis.</string>
+
+
+    <string name="que_4">4.What is the returntype of EditText???</string>
+    <string name="e4_op1">Editable</string>
+    <string name="e4_op2">Edit</string>
+    <string name="e4_op3">String</string>
+    <string name="e4_op4">Emptystring</string>
+
+
+    <string name="que_5">5.XML is the extension of ??? </string>
+    <string name="e5_op1">WML</string>
+    <string name="e5_op2">YML</string>
+    <string name="e5_op3">HTML</string>
+    <string name="e5_op4">It is not extension to any language.</string>
+
+
+    <string name="que_6">6.Which concept is used to make your app available in different languages?? </string>
+    <string name="e6_op1">BiLingualization</string>
+    <string name="e6_op2">Generalization</string>
+    <string name="e6_op3">Multilation</string>
+    <string name="e6_op4">Localization</string>
+
+
+    <string name="que_7">7.To remove/hide ActionBar which concept is used?? </string>
+    <string name="e7_op1">colors.xml</string>
+    <string name="e7_op2">styles.xml</string>
+    <string name="e7_op3">strings.xml</string>
+    <string name="e7_op4">accessBars.xml</string>
+
+
+    <string name="que_8">8.What is used to display an message for short period of time ?? </string>
+    <string name="e8_op1">Toast</string>
+    <string name="e8_op2">Cookies</string>
+    <string name="e8_op3">TextView</string>
+    <string name="e8_op4">popup messages</string>
+
+
+    <string name="que_9">9.Using what we can drag and drop the views in developing your app?? </string>
+    <string name="e9_op1">Text</string>
+    <string name="e9_op2">MainActivity</string>
+    <string name="e9_op3">Preview</string>
+    <string name="e9_op4">Design</string>
+
+
+    <string name="que_10">10.Identify the correct code from the following options!!!</string>
+    <string name="e10_op1">Textview TextView = (TextView) findViewByid(R.id.txt_id)</string>
+    <string name="e10_op2">TextView TextView = (textview) FindViewById(R.id.txt_id)</string>
+    <string name="e10_op3">TextView TextVieW = (TextView)findViewById(r.id.txt_id)</string>
+    <string name="e10_op4">TextView Textview = (TextView) findViewById(R.id.txt_id)</string>
+
+    <string name="submit_button">submit</string>
+
+    <string name="qum_1">1.What method is used to know whether an option is selected or not in a RadioGroup??</string>
+    <string name="m1_op1">No need of method</string>
+    <string name="m1_op2">IsChecked()</string>
+    <string name="m1_op3">isChecked()</string>
+    <string name="m1_op4">CheckOption()</string>
+
+    <string name="qum_2">2.How to become a developer in an android phone???</string>
+    <string name="m2_op1">switchoff and switchon your phone</string>
+    <string name="m2_op2">restart->settings->about phone->modelNumber->click 10 times</string>
+    <string name="m2_op3">Just restart your phone</string>
+    <string name="m2_op4">settings->about phone->model number->click 10 time->about phone->developer settings->turn on usb</string>
+
+
+    <string name="qum_3">3.What is the order of steps to be follow to open a new project in androidstudio??</string>
+    <string name="m3_op1">new->new project->click ok</string>
+    <string name="m3_op2">restart computer ->open android->new->ok</string>
+    <string name="m3_op3">open androidstudio->new->new project->name it->select version->select activity type->ok</string>
+    <string name="m3_op4">new project->name it->ok</string>
+
+    <string name="qum_4">4.what is the full form of XML???</string>
+    <string name="m4_op1">No full form</string>
+    <string name="m4_op2">Extensible Markup Language</string>
+    <string name="m4_op3">Extended Markup Language</string>
+    <string name="m4_op4">Extensible Marker Language</string>
+
+
+    <string name="qum_5">5.In java the identifiers resembles to ______ shape???</string>
+    <string name="m5_op1">Horse shape</string>
+    <string name="m5_op2">Camel shape</string>
+    <string name="m5_op3">Dog shape</string>
+    <string name="m5_op4">No shape</string>
+
+
+    <string name="qum_6">6.which concept is used to remove hardcode strings???</string>
+    <string name="m6_op1">Resource Strings</string>
+    <string name="m6_op2">Semihard strings</string>
+    <string name="m6_op3">Soft Strings</string>
+    <string name="m6_op4">Smooth strings</string>
+
+
+    <string name="qum_7">7.Which of the following are true??</string>
+    <string name="op_txt1">a.It"'"s is different from others</string>
+    <string name="op_txt2">b.They are in round shape</string>
+    <string name="op_txt3">c.We can select only one option.</string>
+    <string name="op_txt4">d.once we attempt a question we change answer but we cannot make it as unattempt</string>
+    <string name="m7_op1">all are true</string>
+    <string name="m7_op2">only a,b,d</string>
+    <string name="m7_op3">b,c,d only</string>
+    <string name="m7_op4">all are false</string>
+
+
+    <string name="qum_8">8.What is the process to use an image in making of your android app??</string>
+    <string name="m8_op1">downloadimage->nameit->open drawable->move image to it</string>
+    <string name="m8_op2">open drawable->move image</string>
+    <string name="m8_op3">we can use image without any process</string>
+    <string name="m8_op4">download image</string>
+
+
+    <string name="qum_9">9.Which of the following is true??</string>
+    <string name="m9_op1">Intent in = new Intent(this,Activityname.class);</string>
+    <string name="m9_op2">Intent in = (Intent) findViewById(R.id.Activityname.class)</string>
+    <string name="m9_op3">Intent in = new Intent(this,Activityname.class)</string>
+    <string name="m9_op4">(Intent) findViewById(R.id.Activityname.class);</string>
+
+
+    <string name="qum_10">10.Which type of view we are using for options in this quiz??</string>
+    <string name="m10_op1">CheckBox</string>
+    <string name="m10_op2">Vertical relative Layout</string>
+    <string name="m10_op3">Horizontal Linear Layout</string>
+    <string name="m10_op4">RadioGroup and RadioButton</string>
+
+
+    <string name="qut_1">1.In windows, what is the keyboard shortcut used to maintain the indentation in xml code??</string>
+    <string name="t1_op1">Alt+Enter</string>
+    <string name="t1_op2">Alt+Ctrl+Enter</string>
+    <string name="t1_op3">Alt+Delete+Enter</string>
+    <string name="t1_op4">Alt+Ctrl+l</string>
+
+
+    <string name="qut_2">2.Where we can see the error messages???</string>
+    <string name="t2_op1">logcat</string>
+    <string name="t2_op2">Gradle</string>
+    <string name="t2_op3">Preview</string>
+    <string name="t2_op4">ErrorBox</string>
+
+
+    <string name="qut_3">3.What are the methods used to maintain same values on textviews after rotation of your phone also????</string>
+    <string name="t3_op1">maintainsame(),retrivesame()</string>
+    <string name="t3_op2">onRetriveInstanceState(), onSaveInstanceState()</string>
+    <string name="t3_op3">onretriveinstanceState(), onsaveinstanceState()</string>
+    <string name="t3_op4">maintainSame(),retriveSame()</string>
+
+
+    <string name="qut_4">4.Which of the following is the correct statement???</string>
+    <string name="t4_op1">android:Orientation="true"</string>
+    <string name="t4_op2">android:orientation="false"</string>
+    <string name="t4_op3">android:Orientation="vertical</string>
+    <string name="t4_op4">android:Orientation="Vertical"</string>
+
+
+    <string name="qut_5">5.Why hardcode strings are not encouraged????</string>
+    <string name="t5_op1">because if we want to change the text which is used in multiple places then it will be tough with hardcode strings</string>
+    <string name="t5_op2">No, In android they are enncouraged </string>
+    <string name="t5_op3">Because we have smoothe strings</string>
+    <string name="t5_op4">Because its name says they are hard to touch</string>
+
+
+    <string name="qut_6">6.How to create a new activity in a project??</string>
+    <string name="t6_op1">New->activity->select type of activity->give name to the activity->click ok</string>
+    <string name="t6_op2">click on create new activity</string>
+    <string name="t6_op3">new->new project->give name to project->select version->select type of activity->click ok</string>
+    <string name="t6_op4">new->fresh activity</string>
+
+
+    <string name="qut_7">7.what is the difference b/w centre and centrecrop</string>
+    <string name="t7_op1">crop</string>
+    <string name="t7_op2">centre is a attribute of textview and centrecrop is an attribute of imageview</string>
+    <string name="t7_op3">centrecrop is linearlayout property and centre is a relativelayout property </string>
+    <string name="t7_op4">way of displaying image on screen</string>
+
+
+    <string name="qut_8">8.How RelativeLayout and LinearLayout from eachother???</string>
+    <string name="t8_op1">In the way of positining the child views</string>
+    <string name="t8_op2">with their names</string>
+    <string name="t8_op3">RelativeLayout access only its Relative views</string>
+    <string name="t8_op4">no differences b/w them</string>
+
+
+    <string name="qut_9">9.Asserion:scaleType is an attribute of ImageView</string>
+    <string name="txt_9">Reason:Yes,because it measures the length of the string </string>
+    <string name="t9_op1">only reason is true</string>
+    <string name="t9_op2">only assertion is true</string>
+    <string name="t9_op3">both are false</string>
+    <string name="t9_op4">both are True</string>
+
+    <string name="t10_op1">16-textviews,1-image,3-buttons,3-popup lists</string>
+    <string name="t10_op2">16-textviews,1-image,3-buttons,2-radiobuttons,1-checkbox,3-popup lists</string>
+    <string name="t10_op3">16-textviews,1-image,4-buttons,2-radiobuttons,2-checkboxes,3-popup lists</string>
+    <string name="t10_op4">16-textviews,1-image,1-button</string>
+
+
+    <string name="finalAnswer">Marks List</string>
+    <string name="attempt">Num of attempted questions - </string>
+    <string name="correct">num of correct answers - </string>
+    <string name="wrong">number of wrong answers - </string>
+    <string name="total">Total  </string>
+    <string name="grade">Grade -   </string>
+    <string name="text">F-Fail    B-Bad    A-avg    G-Good    E-Excellent</string>
+</resources>

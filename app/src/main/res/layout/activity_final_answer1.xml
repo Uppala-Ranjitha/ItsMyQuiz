@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FinalAnswer1">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/finalAnswer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="50sp"
+        android:textColor="#01579B"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/attempt_questions_m"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="@string/attempt"/>
+
+            <TextView
+                android:id="@+id/attempt_number_m"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:layout_toRightOf="@id/attempt_questions_m"
+                android:layout_toEndOf="@id/attempt_questions_m"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/correct_answers_m"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/correct"
+                android:textSize="20sp"
+                android:layout_below="@id/attempt_questions_m"/>
+
+            <TextView
+                android:id="@+id/correct_number_m"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/correct_answers_m"
+                android:layout_toEndOf="@id/correct_answers_m"
+                android:layout_below="@id/attempt_questions_m"
+                android:text="0"/>
+
+            <TextView
+                android:id="@+id/wrong_answers_m"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/wrong"
+                android:textSize="20sp"
+                android:layout_below="@id/correct_answers_m"/>
+
+            <TextView
+                android:id="@+id/wrong_number_m"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/wrong_answers_m"
+                android:layout_toEndOf="@id/wrong_answers_m"
+                android:layout_below="@id/correct_answers_m"
+                android:text="0"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/total_marks_m"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/total"
+                android:textSize="20sp"
+                android:layout_below="@id/wrong_answers_m"/>
+
+            <TextView
+                android:id="@+id/total_marks_number_m"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/total_marks_m"
+                android:layout_toEndOf="@id/total_marks_m"
+                android:layout_below="@id/wrong_answers_m"
+                android:text="0"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/Grade_m"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/grade"
+                android:textSize="20sp"
+                android:layout_below="@id/total_marks_m"/>
+
+            <TextView
+                android:id="@+id/Grade_value_m"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/Grade_m"
+                android:layout_toEndOf="@id/Grade_m"
+                android:layout_below="@id/total_marks_m"
+                android:text="-"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Grade_m"
+                android:text="@string/text"
+                android:textSize="15sp"
+                />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
