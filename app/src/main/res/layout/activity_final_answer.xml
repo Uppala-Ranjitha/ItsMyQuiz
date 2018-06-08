@@ -26,9 +26,7 @@
 
             <TextView
                 android:id="@+id/attempt_questions"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="20sp"
+                style="@style/AppTheme.Markslist"
                 android:text="@string/attempt"/>
 
             <TextView
@@ -42,10 +40,8 @@
 
             <TextView
                 android:id="@+id/correct_answers"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/AppTheme.Markslist"
                 android:text="@string/correct"
-                android:textSize="20sp"
                 android:layout_below="@id/attempt_questions"/>
 
             <TextView
@@ -60,10 +56,8 @@
 
             <TextView
                 android:id="@+id/wrong_answers"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/AppTheme.Markslist"
                 android:text="@string/wrong"
-                android:textSize="20sp"
                 android:layout_below="@id/correct_answers"/>
 
             <TextView
@@ -78,10 +72,8 @@
 
             <TextView
                 android:id="@+id/total_marks"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/AppTheme.Markslist"
                 android:text="@string/total"
-                android:textSize="20sp"
                 android:layout_below="@id/wrong_answers"/>
 
             <TextView
@@ -96,10 +88,8 @@
 
             <TextView
                 android:id="@+id/Grade"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/AppTheme.Markslist"
                 android:text="@string/grade"
-                android:textSize="20sp"
                 android:layout_below="@id/total_marks"/>
 
             <TextView

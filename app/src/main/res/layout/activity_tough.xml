@@ -21,11 +21,8 @@
             android:padding="20dp">
             <TextView
                 android:id="@+id/tq_1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:text="@string/qut_1"
-                android:textColor="@android:color/black"
-                android:textSize="20sp" />
+                style="@style/AppTheme.Questions" />
 
             <RadioGroup
                 android:id="@+id/rgtq_1"
@@ -55,12 +52,9 @@
             </RadioGroup>
             <TextView
                 android:id="@+id/tq_2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:text="@string/qut_2"
                 android:layout_below="@id/rgtq_1"
-                android:textColor="@android:color/black"
-                android:textSize="20sp" />
+                style="@style/AppTheme.Questions" />
 
             <RadioGroup
                 android:id="@+id/rgtq_2"
@@ -90,12 +84,9 @@
             </RadioGroup>
             <TextView
                 android:id="@+id/tq_3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:text="@string/qut_3"
                 android:layout_below="@id/rgtq_2"
-                android:textColor="@android:color/black"
-                android:textSize="20sp" />
+                style="@style/AppTheme.Questions" />
 
             <RadioGroup
                 android:id="@+id/rgtq_3"
@@ -127,12 +118,9 @@
             </RadioGroup>
             <TextView
             android:id="@+id/tq_4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:text="@string/qut_4"
             android:layout_below="@id/rgtq_3"
-            android:textColor="@android:color/black"
-            android:textSize="20sp" />
+            style="@style/AppTheme.Questions" />
 
             <RadioGroup
                 android:id="@+id/rgtq_4"
@@ -162,12 +150,9 @@
             </RadioGroup>
             <TextView
                 android:id="@+id/tq_5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:text="@string/qut_5"
                 android:layout_below="@id/rgtq_4"
-                android:textColor="@android:color/black"
-                android:textSize="20sp" />
+                style="@style/AppTheme.Questions"/>
 
             <RadioGroup
                 android:id="@+id/rgtq_5"
@@ -198,12 +183,9 @@
             </RadioGroup>
             <TextView
                 android:id="@+id/tq_6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:text="@string/qut_6"
                 android:layout_below="@id/rgtq_5"
-                android:textColor="@android:color/black"
-                android:textSize="20sp" />
+                style="@style/AppTheme.Questions" />
 
             <RadioGroup
                 android:id="@+id/rgtq_6"
@@ -235,12 +217,9 @@
             </RadioGroup>
             <TextView
             android:id="@+id/tq_7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:text="@string/qut_7"
             android:layout_below="@id/rgtq_6"
-            android:textColor="@android:color/black"
-            android:textSize="20sp" />
+            style="@style/AppTheme.Questions" />
 
             <RadioGroup
                 android:id="@+id/rgtq_7"
@@ -272,12 +251,9 @@
             </RadioGroup>
             <TextView
                 android:id="@+id/tq_8"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:text="@string/qut_8"
                 android:layout_below="@id/rgtq_7"
-                android:textColor="@android:color/black"
-                android:textSize="20sp" />
+                style="@style/AppTheme.Questions" />
 
             <RadioGroup
                 android:id="@+id/rgtq_8"
@@ -308,20 +284,14 @@
 
             <TextView
                 android:id="@+id/tq_9"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:text="@string/qut_9"
                 android:layout_below="@id/rgtq_8"
-                android:textColor="@android:color/black"
-                android:textSize="20sp" />
+                style="@style/AppTheme.Questions"/>
             <TextView
                 android:id="@+id/tq_9_txt"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:text="@string/txt_9"
                 android:layout_below="@id/tq_9"
-                android:textColor="@android:color/black"
-                android:textSize="16sp" />
+               style="@style/AppTheme.Questions" />
             <RadioGroup
                 android:id="@+id/rgtq_9"
                 android:layout_width="match_parent"
