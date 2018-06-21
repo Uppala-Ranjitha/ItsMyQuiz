@@ -3,9 +3,11 @@ package com.example.android.itsmyquiz;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.content.Intent;
+import android.widget.Toast;
 
 public class Medium extends AppCompatActivity {
     String ans1,ans2,ans3,ans4,ans5,ans6,ans7,ans8,ans9,ans10;
@@ -19,22 +21,18 @@ public class Medium extends AppCompatActivity {
         setContentView(R.layout.activity_medium);
     }
     public void Submitting1(View view) {
-        final RadioGroup r1 = (RadioGroup) findViewById(R.id.rgmq_1);
-        int selected1 = r1.getCheckedRadioButtonId();
-        if(selected1 != -1)
-        {
-            RadioButton rg1 = (RadioButton) findViewById(selected1);
-            ans1 = rg1.getText().toString();
+        final EditText r1 = (EditText) findViewById(R.id.emq_1);
+        if(r1.getText().toString().isEmpty()) {}
+        else{
             attempted += 1;
-            switch(ans1){
-                case "isChecked()":correct += 1;
-                    marks += 2;
-                    break;
-                default:wrong += 1;
-                    marks -= 0.5;
+            if (r1.getText().toString().equals("isChecked()")) {
+                correct += 1;
+                marks += 2;
+            } else {
+                wrong += 1;
+                marks -= 0.5;
             }
         }
-        else{}
         final RadioGroup r2 = (RadioGroup) findViewById(R.id.rgmq_2);
         int selected2 = r2.getCheckedRadioButtonId();
         if(selected2 != -1){
@@ -42,7 +40,7 @@ public class Medium extends AppCompatActivity {
             ans2 = rg2.getText().toString();
             attempted += 1;
             switch(ans2){
-                case "settings->about phone->model number->click 10 time->about phone->developer settings->turn on usb":correct += 1;
+                case "R.string.m2_op4":correct += 1;
                     marks += 2;
                     break;
                 default:wrong += 1;
@@ -65,21 +63,18 @@ public class Medium extends AppCompatActivity {
             }
         }
         else{}
-        final RadioGroup r4 = (RadioGroup) findViewById(R.id.rgmq_4);
-        int selected4 = r4.getCheckedRadioButtonId();
-        if(selected4 != -1){
-            RadioButton rg4 = (RadioButton) findViewById(selected4);
-            ans4 = rg4.getText().toString();
+        final EditText r4 = (EditText) findViewById(R.id.emq_4);
+        if(r4.getText().toString().isEmpty()) {}
+        else{
             attempted += 1;
-            switch(ans4){
-                case "Extensible Markup Language":correct += 1;
-                    marks += 2;
-                    break;
-                default:wrong += 1;
-                    marks -= 0.5;
+            if (r4.getText().toString().toLowerCase().equals("extensible markup language")) {
+                correct += 1;
+                marks += 2;
+            } else {
+                wrong += 1;
+                marks -= 0.5;
             }
         }
-        else{}
         final RadioGroup r5 = (RadioGroup) findViewById(R.id.rgmq_5);
         int selected5 = r5.getCheckedRadioButtonId();
         if(selected5 != -1){
@@ -95,21 +90,18 @@ public class Medium extends AppCompatActivity {
             }
         }
         else{}
-        final RadioGroup r6 = (RadioGroup) findViewById(R.id.rgmq_6);
-        int selected6 = r6.getCheckedRadioButtonId();
-        if(selected6 != -1){
-            RadioButton rg6 = (RadioButton) findViewById(selected6);
-            ans6 = rg6.getText().toString();
+        final EditText r6 = (EditText) findViewById(R.id.emq_6);
+        if(r6.getText().toString().isEmpty()) {}
+        else{
             attempted += 1;
-            switch(ans6){
-                case "Resource Strings":correct += 1;
-                    marks += 2;
-                    break;
-                default:wrong += 1;
-                    marks -= 0.5;
+            if (r6.getText().toString().toLowerCase().equals("resource strings")) {
+                correct += 1;
+                marks += 2;
+            } else {
+                wrong += 1;
+                marks -= 0.5;
             }
         }
-        else{}
         final RadioGroup r7 = (RadioGroup) findViewById(R.id.rgmq_7);
         int selected7 = r7.getCheckedRadioButtonId();
         if(selected7 != -1){
@@ -173,6 +165,7 @@ public class Medium extends AppCompatActivity {
         goToFinal1();
     }
     public void goToFinal1(){
+        Toast.makeText(this, "You results have been submitted", Toast.LENGTH_SHORT).show();
         Intent sub1 = new Intent(this,FinalAnswer1.class);
         startActivity(sub1);
         finish();

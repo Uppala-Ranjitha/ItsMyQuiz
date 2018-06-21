@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.Toast;
 
 public class Tough extends AppCompatActivity {
     String ans1,ans2,ans3,ans4,ans5,ans6,ans7,ans8,ans9,ans10;
@@ -172,18 +173,22 @@ public class Tough extends AppCompatActivity {
             ans10 = rg10.getText().toString();
             attempted += 1;
             switch(ans10){
-                case "16-textviews,1-image,3-buttons,2-radiobuttons,1-checkbox,3-popup lists":correct += 1;
+                case "16-textviews,1-image,3-buttons,2-radiobuttons,1-checkbox,3-popup lists":
+                    correct += 1;
                     marks += 2;
                     break;
                 default:wrong += 1;
                     marks -= 0.5;
             }
+
         }
         else{}
 
        goToTough();
     }
     public void goToTough(){
+        Toast.makeText(this, "Your results have been submitted" +
+                " ", Toast.LENGTH_SHORT).show();
         Intent in = new Intent(this,FinalT.class);
         startActivity(in);
         finish();

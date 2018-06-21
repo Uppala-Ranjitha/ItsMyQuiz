@@ -24,36 +24,14 @@
                 android:text="@string/qum_1"
                 style="@style/AppTheme.Questions"/>
 
-            <RadioGroup
-                android:id="@+id/rgmq_1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/mq_1">
-
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/m1_op1" />
-
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/m1_op2" />
-
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/m1_op3" />
-
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/m1_op4" />
-            </RadioGroup>
+           <EditText
+               android:id="@+id/emq_1"
+               android:layout_below="@id/mq_1"
+               style="@style/AppTheme.editexts"/>
             <TextView
                 android:id="@+id/mq_2"
                 android:text="@string/qum_2"
-                android:layout_below="@id/rgmq_1"
+                android:layout_below="@id/emq_1"
                 style="@style/AppTheme.Questions" />
 
             <RadioGroup
@@ -120,36 +98,15 @@
                 android:layout_below="@id/rgmq_3"
                 style="@style/AppTheme.Questions"/>
 
-            <RadioGroup
-                android:id="@+id/rgmq_4"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/mq_4">
+            <EditText
+                android:id="@+id/emq_4"
+                android:layout_below="@id/mq_4"
+                style="@style/AppTheme.editexts"/>
 
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/m4_op1" />
-
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/m4_op2" />
-
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/m4_op3" />
-
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/m4_op4" />
-            </RadioGroup>
             <TextView
                 android:id="@+id/mq_5"
                 android:text="@string/qum_5"
-                android:layout_below="@id/rgmq_4"
+                android:layout_below="@id/emq_4"
                 style="@style/AppTheme.Questions" />
 
             <RadioGroup
@@ -184,36 +141,15 @@
                 android:layout_below="@id/rgmq_5"
                 style="@style/AppTheme.Questions" />
 
-            <RadioGroup
-                android:id="@+id/rgmq_6"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/mq_6">
 
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/m6_op1" />
-
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/m6_op2" />
-
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/m6_op3" />
-
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/m6_op4" />
-            </RadioGroup>
+            <EditText
+                android:id="@+id/emq_6"
+                android:layout_below="@id/mq_6"
+                style="@style/AppTheme.editexts"/>
             <TextView
                 android:id="@+id/mq_7"
                 android:text="@string/qum_7"
-                android:layout_below="@id/rgmq_6"
+                android:layout_below="@id/emq_6"
                 style="@style/AppTheme.Questions" />
             <TextView
                 android:id="@+id/mq_7_op1"

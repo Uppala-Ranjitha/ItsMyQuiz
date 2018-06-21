@@ -81,16 +81,13 @@
     <string name="submit_button">submit</string>
 
     <string name="qum_1">1.What method is used to know whether an option is selected or not in a RadioGroup??</string>
-    <string name="m1_op1">No need of method</string>
-    <string name="m1_op2">IsChecked()</string>
-    <string name="m1_op3">isChecked()</string>
-    <string name="m1_op4">CheckOption()</string>
+    <string name="m1_ans">isChecked()</string>
 
     <string name="qum_2">2.How to become a developer in an android phone???</string>
     <string name="m2_op1">switchoff and switchon your phone</string>
     <string name="m2_op2">restart->settings->about phone->modelNumber->click 10 times</string>
     <string name="m2_op3">Just restart your phone</string>
-    <string name="m2_op4">settings->about phone->model number->click 10 time->about phone->developer settings->turn on usb</string>
+    <string name="m2_op4">settings->about phone->model number->click 10 times->about phone->developer settings->turn on usb</string>
 
 
     <string name="qum_3">3.What is the order of steps to be follow to open a new project in androidstudio??</string>
@@ -100,10 +97,7 @@
     <string name="m3_op4">new project->name it->ok</string>
 
     <string name="qum_4">4.what is the full form of XML???</string>
-    <string name="m4_op1">No full form</string>
-    <string name="m4_op2">Extensible Markup Language</string>
-    <string name="m4_op3">Extended Markup Language</string>
-    <string name="m4_op4">Extensible Marker Language</string>
+    <string name="m4_op2">extensible markup language</string>
 
 
     <string name="qum_5">5.In java the identifiers resembles to ______ shape???</string>
@@ -114,11 +108,7 @@
 
 
     <string name="qum_6">6.which concept is used to remove hardcode strings???</string>
-    <string name="m6_op1">Resource Strings</string>
-    <string name="m6_op2">Semihard strings</string>
-    <string name="m6_op3">Soft Strings</string>
-    <string name="m6_op4">Smooth strings</string>
-
+    <string name="m6_op1">resource strings</string>
 
     <string name="qum_7">7.Which of the following are true??</string>
     <string name="op_txt1">a.It"'"s is different from others</string>
@@ -221,6 +211,9 @@
     <string name="t10_op4">16-textviews,1-image,1-button</string>
 
 
+
+    <string name="hint_msg">Write your answer</string>
+    <string name="zero">0</string>
     <string name="finalAnswer">Marks List</string>
     <string name="attempt">Num of attempted questions - </string>
     <string name="correct">num of correct answers - </string>

@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class Easy extends AppCompatActivity {
     String ans1,ans2,ans3,ans4,ans5,ans6,ans7,ans8,ans9,ans10;
@@ -84,21 +85,12 @@ public class Easy extends AppCompatActivity {
             ans1 = rb1.getText().toString();
             attempted += 1;
             switch (ans1) {
-                case "RadioButton":
-                    wrong += 1;
-                     marks -= 0.5;
-                    break;
-                case "radiogroup":
-                    wrong += 1;
+               default:wrong += 1;
                      marks -= 0.5;
                     break;
                 case "Resources":
                     correct += 1;
                     marks += 2;
-                    break;
-                case "RadIOGroup":
-                    wrong += 1;
-                    marks -= 0.5;
                     break;
             }
         }
@@ -108,17 +100,11 @@ public class Easy extends AppCompatActivity {
             ans2 = rb2.getText().toString();
             attempted += 1;
             switch(ans2){
-                case "java code": wrong += 1;
+                default: wrong += 1;
                 marks -= 0.5;
                 break;
                 case "xml code": correct += 1;
                 marks += 2;
-                break;
-                case "Kotlin code": wrong += 1;
-                marks -= 0.5;
-                break;
-                case "android code":wrong += 1;
-                marks -= 0.5;
                 break;
             }
         }
@@ -128,18 +114,13 @@ public class Easy extends AppCompatActivity {
             ans3 = rb3.getText().toString();
             attempted += 1;
             switch(ans3){
-                case "It is the syntax": wrong += 1;
-                    marks -= 0.5;
-                    break;
-                case "Because TextView is a subclass of View class.": wrong += 1;
+                default: wrong += 1;
                     marks -= 0.5;
                     break;
                 case "there casting from View type to TextView is happening.": correct += 1;
                     marks += 2;
                     break;
-                case "The right operand of = must have parenthesis.":wrong += 1;
-                    marks -= 0.5;
-                    break;
+
             }
         }
         else{}
@@ -151,13 +132,7 @@ public class Easy extends AppCompatActivity {
                 case "Editable": correct += 1;
                     marks += 2;
                     break;
-                case "Edit": wrong += 1;
-                    marks -= 0.5;
-                    break;
-                case "String": wrong += 1;
-                    marks -= 0.5;
-                    break;
-                case "Emptystring":wrong += 1;
+                default:wrong += 1;
                     marks -= 0.5;
                     break;
             }
@@ -168,17 +143,11 @@ public class Easy extends AppCompatActivity {
             ans5 = rb5.getText().toString();
             attempted += 1;
             switch(ans5){
-                case "WML": wrong += 1;
-                    marks -= 0.5;
-                    break;
-                case "YML": wrong += 1;
+               default: wrong += 1;
                     marks -= 0.5;
                     break;
                 case "HTML": correct += 1;
                     marks += 2;
-                    break;
-                case "It is not extension to any language.":wrong += 1;
-                    marks -= 0.5;
                     break;
             }
         }
@@ -188,13 +157,7 @@ public class Easy extends AppCompatActivity {
             ans6 = rb6.getText().toString();
             attempted += 1;
             switch(ans6){
-                case "BiLingualization": wrong += 1;
-                    marks -= 0.5;
-                    break;
-                case "Generalization": wrong += 1;
-                    marks -= 0.5;
-                    break;
-                case "Multilation": wrong += 1;
+                default: wrong += 1;
                     marks -= 0.5;
                     break;
                 case "Localization":correct += 1;
@@ -208,16 +171,10 @@ public class Easy extends AppCompatActivity {
             ans7 = rb7.getText().toString();
             attempted += 1;
             switch(ans7){
-                case "colors.xml": wrong += 1;
-                    marks -= 0.5;
-                    break;
                 case "styles.xml": correct += 1;
                     marks += 2;
                     break;
-                case "strings.xml": wrong += 1;
-                    marks -= 0.5;
-                    break;
-                case "accessBars.xml":wrong += 1;
+                default:wrong += 1;
                     marks -= 0.5;
                     break;
             }
@@ -231,13 +188,7 @@ public class Easy extends AppCompatActivity {
                 case "Toast":correct+= 1;
                     marks += 2;
                     break;
-                case "Cookies": wrong += 1;
-                    marks -= 0.5;
-                    break;
-                case "TextView": wrong += 1;
-                    marks -= 0.5;
-                    break;
-                case "popup messages":wrong += 1;
+                default:wrong += 1;
                     marks -= 0.5;
                     break;
             }
@@ -248,13 +199,7 @@ public class Easy extends AppCompatActivity {
             ans9 = rb9.getText().toString();
             attempted += 1;
             switch(ans9){
-                case "Text": wrong += 1;
-                    marks -= 0.5;
-                    break;
-                case "MainActivity": wrong += 1;
-                    marks -= 0.5;
-                    break;
-                case "Preview": wrong += 1;
+                default: wrong += 1;
                     marks -= 0.5;
                     break;
                 case "Design":correct += 1;
@@ -268,13 +213,7 @@ public class Easy extends AppCompatActivity {
             ans10 = rb10.getText().toString();
             attempted += 1;
             switch(ans10){
-                case "Textview TextView = (TextView) findViewByid(R.id.txt_id)": wrong += 1;
-                    marks -= 0.5;
-                    break;
-                case "TextView TextView = (textview) FindViewById(R.id.txt_id)": wrong += 1;
-                    marks -= 0.5;
-                    break;
-                case "TextView TextVieW = (TextView)findViewById(r.id.txt_id)": wrong += 1;
+                default: wrong += 1;
                     marks -= 0.5;
                     break;
                 case "TextView Textview = (TextView) findViewById(R.id.txt_id)":correct += 1;
@@ -286,6 +225,7 @@ public class Easy extends AppCompatActivity {
         goToFinal();
     }
     public void goToFinal(){
+        Toast.makeText(this, "Your answers have been submitted", Toast.LENGTH_SHORT).show();
         Intent sub = new Intent(this,FinalAnswer.class);
         startActivity(sub);
         finish();
